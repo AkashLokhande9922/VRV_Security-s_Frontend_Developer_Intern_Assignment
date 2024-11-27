@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+## **Assignment: Role-Based Access Control (RBAC) UI**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### **Objective**
 
-## Available Scripts
+To evaluate your creativity, understanding, and technical skills in building a **Role-Based Access Control (RBAC)** User Interface. This assignment is designed to give you the flexibility to showcase your problem-solving abilities and your personal approach to designing secure and functional UIs.
 
-In the project directory, you can run:
+> Note:
+> 
+> 
+> If you have already implemented an RBAC UI in any project, you can submit that project for evaluation. Be sure to include a detailed description and links to the repository or deployment.
+> 
 
-### `npm start`
+### **Key Instructions**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **You don’t have to follow any specific structure.**
+    
+    You are free to design the UI, features, and models as you see fit, based on your understanding of an ideal RBAC system.
+    
+- **Creativity is encouraged.**
+    
+    Feel free to innovate and add features or designs that you think would enhance the functionality or user experience.
+    
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### **Flexibility**
 
-### `npm test`
+You have full freedom to:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Choose any frontend framework or library (React, Angular, Vue, etc.).
+- Implement any UI design approach you prefer (table views, modals, inline editing, etc.).
+- Define the data models, UI components, and workflows as per your understanding.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### **Scenario**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Imagine you are tasked with building an admin dashboard for managing users, roles, and permissions. The goal is to design a secure and user-friendly interface where administrators can assign roles, define permissions, and manage users efficiently.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+### **Core Requirements**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. **User Management:**
+    - Provide a way to view and manage users.
+    - Include options to add, edit, or delete users.
+    - Enable assigning roles to users and managing their status (e.g., Active/Inactive).
+2. **Role Management:**
+    - Create a way to define and edit roles.
+    - Allow roles to include permissions (e.g., Read, Write, Delete) or custom attributes.
+3. **Dynamic Permissions:**
+    - Design a method to assign or modify permissions for roles.
+    - Display permissions clearly for ease of understanding and modification.
+4. **Custom API Simulation (Optional):**
+    - Mock API calls for CRUD operations on users and roles.
+    - Simulate server responses to validate functionality.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### **Evaluation Criteria:**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. **Creativity and Design Quality:**
+    
+    The visual appeal, layout, and innovative elements in the design. How well the UI aligns with the RBAC theme and the creative enhancements implemented.
+    
+2. **Responsiveness:**
+    
+    How effectively the UI adapts to different devices and screen sizes, ensuring a seamless experience across platforms.
+    
+3. **Functionality:**
+    
+    Implementation of core RBAC features, such as user and role management, permissions handling, and CRUD operations.
+    
+4. **User Experience (UX):**
+    
+    The intuitiveness, accessibility, and fluidity of interactions within the UI, ensuring ease of use for administrators.
+    
+5. **Technical Skill:**
+    
+    The quality of code, modularity, maintainability, and adherence to best practices. Consideration of client-side security and efficient use of resources.
+    
+6. **Documentation:**
+    
+    Clarity and detail in the README file, including setup instructions, project overview, and explanation of features.
+    
+7. **Security Practices:**
+    
+    Awareness and implementation of basic security measures, such as input validation and error handling, to ensure robustness.
+    
+8. **Additional Features (Bonus):**
+    
+    Any extra functionalities or enhancements, such as sorting, filtering, search capabilities, or innovative workflows.
