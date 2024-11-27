@@ -1,38 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffa000;
+  font-family: "Poppins", sans-serif; 
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  /* max-width: 800px; */
+  width: 100%;
+  height: 100%;
+  /* margin: 20px auto; */
+  padding: 20px;
+  
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #081b2c;
+  border: 3px solid black;
+  border-radius: 50px;
+  padding: 20px 50px;
+  /* background-color: navy; */
+}
+
+.navContainer {
+  margin-bottom: 20px;
+  border: 3px solid black;
+  background-color: antiquewhite ;
+  border-radius: 50px;
+  padding: 0px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0px 0px;
+}
+
+nav ul li {
+  display: inline;
+  
+}
+
+.navContainer ul li:hover{
+  
+}
+nav ul li a {
+  text-decoration: none;
+  color: #081b2c;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 17px 50px 17px 50px;
+  border-radius: 50px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  background-color: #ffa000;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+table {
+  width: 100%;
+  border-collapse: collapse;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+table th, table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #f2f2f2;
+}
+
+button {
+  padding: 8px 12px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal > div {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input,
+form select {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+form button {
+  align-self: flex-start; 
 }
